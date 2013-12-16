@@ -1,4 +1,4 @@
-var size = "12";
+var size = "10.5";
 var amount = 1;
 
 function addToCart() {
@@ -16,7 +16,7 @@ function addToCart() {
 	}
 	if(sizesList != undefined) {
 	    setSizeValue();
-	    document.getElementsByClassName("button-container add-to-cart")[0].click();
+	    document.getElementsByClassName("add-to-cart nsg-button--nike-orange")[0].click();
 	} else {
 	    setTimeout("addToCart()", 250);
 	}
