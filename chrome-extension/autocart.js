@@ -1,5 +1,5 @@
 var size = "10.5";
-var amount = 1;
+var amount = 2;
 
 function addToCart() {
 	var sizesList=document.getElementsByName("skuAndSize")[0];
